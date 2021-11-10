@@ -1,0 +1,47 @@
+
+body {
+  text-align: center;
+}
+.container {
+    background-image:
+    url('istockphoto-1266147845-640x640.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+
+.action {
+  max-width: 800px;
+  padding: 40px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}
+
+.options {
+
+
+  padding: 10px;
+  animation-name: anim-fade;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  width: 120px;
+  max-width: 120px;
+}
+
+.display-moves {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.VS {
+  font-size: 5em;
+}
