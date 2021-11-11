@@ -1,4 +1,3 @@
-
   const options = document.querySelectorAll(".options");
   let playerScore = 0;
   let computorscore = 0;
@@ -35,7 +34,8 @@
       if (computor === "Scissors") {
         alert(`${match} = You Win`);
         playerScore++;
-      } else {
+      }
+        else {
         alert(`${match} = Computer Wins`);
         computorscore++;
       }
@@ -46,7 +46,8 @@
       if (computor === "Rock") {
         alert(`${match} = You Win`);
         playerScore++;
-      } else {
+      } 
+        else {
         alert(`${match} = Computer Wins`);
         computorscore++;
       }
@@ -56,7 +57,8 @@
       if (computor === "Paper") {
         alert(`${match} = You Win`);
         playerScore++;
-      } else {
+      } 
+        else {
         alert(`${match} = Computer Wins`);
         computorscore++;
       }
